@@ -1,30 +1,18 @@
 package Animal.Model.Representative;
 
-import Animal.Interface.ICommands;
 import Animal.Model.Class.Pet;
 
 import java.util.List;
 
-public class Dog extends Pet implements ICommands {
+public class Dog extends Pet  {
 
 
-    public Dog(String nickName, String dateOfBirth) {
-        super(nickName, dateOfBirth);
+    public Dog(String types, String nickName, String dateOfBirth) {
+        super(types, nickName, dateOfBirth);
     }
 
     @Override
-    public List<String> commands() {
-        return List.of();
-    }
-
-    @Override
-    public void getCommands() {
-        return ;
-
-    }
-
-    @Override
-    public void addCommand() {
-
+    public String toString() {
+        return super.toString();
     }
 }

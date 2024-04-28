@@ -6,17 +6,13 @@ import java.util.List;
 
 public class Donkey extends PackAnimals {
 
-    public Donkey(String nickName, String dateOfBirth) {
-        super(nickName, dateOfBirth);
+
+    public Donkey(String types, String nickName, String dateOfBirth) {
+        super(types, nickName, dateOfBirth);
     }
 
     @Override
-    public List<String> getCommands() {
-        return List.of();
-    }
-
-    @Override
-    public void addCommand() {
-
+    public String toString() {
+        return super.toString();
     }
 }
