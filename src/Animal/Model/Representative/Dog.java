@@ -3,7 +3,6 @@ package Animal.Model.Representative;
 import Animal.Model.Class.Animal;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Dog extends Animal {
 

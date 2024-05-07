@@ -41,11 +41,6 @@ public abstract class Animal  {
         return commands;
     }
 
-    public void removeComand(String newCommand){
-        commands.add(newCommand);
-    }
-
-
     public void setCommands(String newCommand) {
         this.commands.add(newCommand);
     }

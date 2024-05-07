@@ -9,7 +9,6 @@ public class MenuZoo {
         System.out.println();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Что будем делать?");
-        System.out.println("9-Загрузим животных");
         System.out.println("1-Добавить новое животное");
         System.out.println("2-Убрать животное");
         System.out.println("3-Показать информацию о животном");
@@ -47,10 +46,7 @@ public class MenuZoo {
                 myZoo.count();
                 menuZoo();
             }
-//            case 9 -> {
-//                myZoo.addZoo();
-//                menuZoo();
-//            }
+
         }
     }
 }
