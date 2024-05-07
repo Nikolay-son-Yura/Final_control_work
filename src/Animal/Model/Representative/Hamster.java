@@ -1,12 +1,15 @@
 package Animal.Model.Representative;
 
-import Animal.Model.Class.Pet;
+import Animal.Model.Class.Animal;
 
-public class Hamster extends Pet {
+import java.util.ArrayList;
+import java.util.List;
+
+public class Hamster extends Animal {
 
 
-    public Hamster(String types, String nickName, String dateOfBirth) {
-        super(types, nickName, dateOfBirth);
+    public Hamster(String types, String nickName, String dateOfBirth, ArrayList<String> commands) {
+        super(types, nickName, dateOfBirth, commands);
     }
 
     @Override

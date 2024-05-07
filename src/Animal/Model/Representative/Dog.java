@@ -1,14 +1,15 @@
 package Animal.Model.Representative;
 
-import Animal.Model.Class.Pet;
+import Animal.Model.Class.Animal;
 
+import java.util.ArrayList;
 import java.util.List;
 
-public class Dog extends Pet  {
+public class Dog extends Animal {
 
 
-    public Dog(String types, String nickName, String dateOfBirth) {
-        super(types, nickName, dateOfBirth);
+    public Dog(String types, String nickName, String dateOfBirth, ArrayList<String> commands) {
+        super(types, nickName, dateOfBirth, commands);
     }
 
     @Override
@@ -16,3 +17,10 @@ public class Dog extends Pet  {
         return super.toString();
     }
 }
+
+
+
+
+
+
+
