@@ -1,4 +1,4 @@
-import Animal.Zoo.MenuZoo;
+import Java.Zoo.MenuZoo;
 
 public class Program {
     public static void main(String[] args) {

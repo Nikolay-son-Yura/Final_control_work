@@ -1,6 +1,6 @@
-package Animal.Model.Representative;
+package Java.Model.Representative;
 
-import Animal.Model.Class.Animal;
+import Java.Model.Class.Animal;
 
 import java.util.ArrayList;
 

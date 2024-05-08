@@ -1,4 +1,4 @@
-package Animal.Model.Class;
+package Java.Model.Class;
 
 import java.util.ArrayList;
 import java.util.List;

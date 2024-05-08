@@ -1,4 +1,4 @@
-package Animal.Model.Class;
+package Java.Model.Class;
 
 public class AnimalCounter implements AutoCloseable{
     private static int sum=0;

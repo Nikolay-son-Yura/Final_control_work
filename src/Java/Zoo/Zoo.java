@@ -1,9 +1,12 @@
-package Animal.Zoo;
+package Java.Zoo;
 
 import java.util.*;
 
-import Animal.Model.Class.Animal;
-import Animal.Model.Representative.*;
+import Java.Model.Class.Animal;
+import Java.Animal.Model.Representative.*;
+import Java.Model.Representative.Cat;
+import Java.Model.Representative.Dog;
+import Java.Model.Representative.Hamster;
 
 public class Zoo {
     ArrayList<Animal> zooAnimal = new ArrayList<>();
