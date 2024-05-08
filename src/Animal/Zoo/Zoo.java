@@ -1,4 +1,4 @@
-package Zoo;
+package Animal.Zoo;
 
 import java.util.*;
 
