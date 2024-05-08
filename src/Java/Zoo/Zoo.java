@@ -1,9 +1,7 @@
 package Java.Zoo;
 
 import java.util.*;
-
 import Java.Model.Class.Animal;
-import Java.Animal.Model.Representative.*;
 import Java.Model.Representative.Cat;
 import Java.Model.Representative.Dog;
 import Java.Model.Representative.Hamster;
